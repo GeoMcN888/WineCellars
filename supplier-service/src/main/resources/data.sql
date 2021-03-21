@@ -1,0 +1,1 @@
+INSERT INTO `suppliers` VALUES (1, 'Lavinia', 'France'),  (2, 'Cash Vin', 'France'), (3, 'Sommellerie de France', 'France');
