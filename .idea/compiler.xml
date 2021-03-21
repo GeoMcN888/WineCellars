@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eureka-service" />
         <module name="supplier-service" />
         <module name="wine-service" />
       </profile>
@@ -14,7 +15,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="supplier-service" options="-parameters" />
-      <module name="wine-service" options="-parameters" />
+      <module name="wine-service" options="" />
     </option>
   </component>
 </project>

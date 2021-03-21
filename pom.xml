@@ -11,6 +11,7 @@
     <modules>
         <module>wine-service</module>
         <module>supplier-service</module>
+        <module>eureka-service</module>
     </modules>
 
     <parent>
