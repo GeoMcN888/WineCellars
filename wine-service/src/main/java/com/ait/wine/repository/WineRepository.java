@@ -4,6 +4,11 @@ import com.ait.wine.model.Wine;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 @Repository
 public interface WineRepository extends JpaRepository<Wine, Long> {
+    List<Wine> findByCountryAndGrapes(String country, String grapes);
+    List<Wine> findByName(String name);
+    List<Wine> findByCountry(String country);
 }
