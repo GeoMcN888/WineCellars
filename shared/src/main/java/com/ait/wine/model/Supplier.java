@@ -31,7 +31,7 @@ public class Supplier {
             name = "supplier_wines",
             joinColumns = @JoinColumn(name = "supplier_id"),
             inverseJoinColumns = @JoinColumn(name = "wine_id"))
-    private Set<Strng> userBooks;*/
+    private Set<String> userBooks;*/
 
     public Supplier() {
     }
@@ -64,4 +64,14 @@ public class Supplier {
     public void setCountry(String country) {
         this.country = country;
     }
+
+    @Override
+    public String toString() {
+        return "Supplier{" +
+                "supplierId=" + supplierId +
+                ", name='" + name + '\'' +
+                ", country='" + country + '\'' +
+                '}';
+    }
 }
+

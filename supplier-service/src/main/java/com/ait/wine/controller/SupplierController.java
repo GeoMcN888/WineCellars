@@ -1,5 +1,6 @@
 package com.ait.wine.controller;
 
+;
 import com.ait.wine.model.Supplier;
 import com.ait.wine.repository.SupplierRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +18,6 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/api/v1")
 public class SupplierController {
 
     @Autowired
