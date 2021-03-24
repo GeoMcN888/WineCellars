@@ -4,76 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ab201d8-9e50-4c81-b846-fa70c37c771c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-discovery/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-discovery/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-discovery/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-discovery/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-discovery/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-discovery/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-discovery/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-discovery/src/main/java/com/ait/clientdiscovery/ClientDiscoveryApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-discovery/src/main/java/com/ait/clientdiscovery/controllers/ClientDiscoveryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-discovery/src/main/java/com/ait/clientdiscovery/model/Wine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-discovery/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-discovery/src/test/java/com/ait/clientdiscovery/ClientDiscoveryApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-feign/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-feign/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-feign/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-feign/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-feign/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-feign/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-feign/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/ClientFeignApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/controllers/ClientFeignController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/SupplierServiceClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/SupplierServiceClientZuul.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/WineServiceClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/WineServiceClientZuul.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/model/Wine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-feign/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-feign/src/test/java/edu/ait/clientfeign/ClientFeignApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-ribbon/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-ribbon/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-ribbon/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-ribbon/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-ribbon/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-ribbon/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-ribbon/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-ribbon/src/main/java/edu/ait/clientribbon/ClientRibbonApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-ribbon/src/main/java/edu/ait/clientribbon/controllers/ClientRibbonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-ribbon/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-ribbon/src/test/java/edu/ait/clientribbon/ClientRibbonApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/src/main/java/com/ait/wine/model/Wine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/target/classes/com/ait/wine/model/Supplier.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/target/classes/com/ait/wine/model/Wine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuulgateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuulgateway/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuulgateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuulgateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuulgateway/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuulgateway/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuulgateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuulgateway/src/main/java/edu/ait/zuulgateway/ZuulgatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuulgateway/src/main/java/edu/ait/zuulgateway/filters/LoggingPostFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuulgateway/src/main/java/edu/ait/zuulgateway/filters/LoggingPreFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuulgateway/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuulgateway/src/test/java/edu/ait/zuulgateway/ZuulgatewayApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service/eureka-service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/supplier-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/supplier-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supplier-service/src/main/java/com/ait/wine/controller/SupplierController.java" beforeDir="false" afterPath="$PROJECT_DIR$/supplier-service/src/main/java/com/ait/wine/controller/SupplierController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supplier-service/src/main/java/com/ait/wine/model/Supplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/ait/wine/model/Supplier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supplier-service/supplier-service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wine-service/src/main/java/com/ait/wine/controller/WineController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wine-service/src/main/java/com/ait/wine/controller/WineController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wine-service/wine-service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/winecellar.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="2ab201d8-9e50-4c81-b846-fa70c37c771c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -384,6 +315,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.2.4.RELEASE/spring-data-commons-2.2.4.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
