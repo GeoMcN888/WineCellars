@@ -10,16 +10,16 @@ import java.util.Optional;
 @FeignClient("zuul-service-api-gateway")
 public interface SupplierServiceClientZuul
 {
-    @GetMapping("supplier-service/suppliers/{supplierId}")
-    Supplier getSupplierById(@PathVariable long supplierId);
+/*    @GetMapping("supplier-service/suppliers/{supplierId}")
+    Supplier getSupplierById(@PathVariable(value = "supplierId") long supplierId);
 
     @DeleteMapping("supplier-service/suppliers/{supplierId}")
-    void deleteSupplierById(@PathVariable long supplierId);
+    void deleteSupplierById(@PathVariable(value = "supplierId") long supplierId);
 
     @PostMapping("supplier-service/suppliers/{supplierId}")
     Supplier addSupplier(@RequestBody Supplier supplier) ;
 
     @GetMapping("supplier-service/suppliers")
-    public List<Supplier> getSuppliers(@RequestParam("name") Optional<String> name, @RequestParam("country")Optional<String> country);
+    public List<Supplier> getSuppliers(@RequestParam("name") Optional<String> name, @RequestParam("country")Optional<String> country);*/
 
 }

@@ -5,22 +5,160 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ab201d8-9e50-4c81-b846-fa70c37c771c" name="Default Changelist" comment="edited zull application.properties.connectTimeout &amp; readTimeout">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/WineServiceClientZuul.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/WineServiceClientZuul.java" afterDir="false" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/wine-service/target/" />
-    <ignored path="$PROJECT_DIR$/supplier-service/target/" />
+      <change beforePath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/controllers/ClientFeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/controllers/ClientFeignController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/SupplierServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/SupplierServiceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/SupplierServiceClientZuul.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/SupplierServiceClientZuul.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/WineServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/WineServiceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/WineServiceClientZuul.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/WineCellarServiceClientZuul.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-feign/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/client-feign/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/target/classes/com/ait/wine/model/Supplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/shared/target/classes/com/ait/wine/model/Supplier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/target/classes/com/ait/wine/model/Wine.class" beforeDir="false" afterPath="$PROJECT_DIR$/shared/target/classes/com/ait/wine/model/Wine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supplier-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/supplier-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wine-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wine-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/eureka-service/target/" />
+    <ignored path="$PROJECT_DIR$/client-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/client-feign/target/" />
+    <ignored path="$PROJECT_DIR$/client-discovery/target/" />
+    <ignored path="$PROJECT_DIR$/shared/target/" />
+    <ignored path="$PROJECT_DIR$/supplier-service/target/" />
+    <ignored path="$PROJECT_DIR$/wine-service/target/" />
+    <ignored path="$PROJECT_DIR$/zuulgateway/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1618845537">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="java" value="36" />
+          <entry key="properties" value="14" />
+          <entry key="sql" value="2" />
+          <entry key="xml" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="36" />
+          <entry key="Properties" value="14" />
+          <entry key="SQL" value="2" />
+          <entry key="XML" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="6" />
+          <entry key="java" value="2809" />
+          <entry key="properties" value="13" />
+          <entry key="sql" value="79" />
+          <entry key="xml" value="33" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2809" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Properties" value="13" />
+          <entry key="SQL" value="79" />
+          <entry key="XML" value="33" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/SupplierServiceClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/controllers/ClientFeignController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="58" column="51" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1258#1259#0" expanded="true" />
+                <element signature="e#1280#1281#0" expanded="true" />
+                <element signature="e#1439#1440#0" expanded="true" />
+                <element signature="e#1498#1499#0" expanded="true" />
+                <element signature="e#1574#1575#0" expanded="true" />
+                <element signature="e#1650#1651#0" expanded="true" />
+                <element signature="e#1794#1795#0" expanded="true" />
+                <element signature="e#1864#1865#0" expanded="true" />
+                <element signature="e#2274#2275#0" expanded="true" />
+                <element signature="e#2310#2311#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/WineCellarServiceClientZuul.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/WineServiceClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/SupplierServiceClientZuul.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="12" column="2" selection-start-line="12" selection-end-line="22" selection-end-column="136" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/ClientFeignApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#496#497#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,12 +184,28 @@
         <option value="$PROJECT_DIR$/eureka-service/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-service/src/main/java/com/ait/wine/EurekaServiceApplication.java" />
         <option value="$PROJECT_DIR$/eureka-service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/supplier-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/supplier-service/src/main/java/com/ait/wine/SupplierServiceApplication.java" />
         <option value="$PROJECT_DIR$/wine-service/pom.xml" />
         <option value="$PROJECT_DIR$/wine-service/src/main/java/com/ait/wine/WineServiceApplication.java" />
+        <option value="$PROJECT_DIR$/wine-service/src/main/java/com/ait/wine/controller/WineController.java" />
+        <option value="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/WineServiceClient.java" />
+        <option value="$PROJECT_DIR$/client-feign/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/wine-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/supplier-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/SupplierServiceClientZuul.java" />
+        <option value="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/WineServiceClientZuul.java" />
+        <option value="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/model/Supplier.java" />
+        <option value="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/SupplierServiceClient.java" />
+        <option value="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/WineCellarServiceClientZuul.java" />
+        <option value="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/controllers/ClientFeignController.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -82,8 +236,53 @@
         <subPane>
           <expand>
             <path>
-              <item name="winecellar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-feign" type="b2602c69:ProjectViewProjectNode" />
               <item name="winecellar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client-feign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="winecellar" type="462c0819:PsiDirectoryNode" />
+              <item name="client-feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client-feign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="winecellar" type="462c0819:PsiDirectoryNode" />
+              <item name="client-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client-feign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="winecellar" type="462c0819:PsiDirectoryNode" />
+              <item name="client-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client-feign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="winecellar" type="462c0819:PsiDirectoryNode" />
+              <item name="client-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client-feign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="winecellar" type="462c0819:PsiDirectoryNode" />
+              <item name="client-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="clientfeign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client-feign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="winecellar" type="462c0819:PsiDirectoryNode" />
+              <item name="client-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="clientfeign" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -105,9 +304,24 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ait.clientfeign.model" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Application.ZuulgatewayApplication">
     <configuration name="ClientFeignApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -217,14 +431,14 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ZuulgatewayApplication" />
-        <item itemvalue="Application.SupplierServiceApplication" />
-        <item itemvalue="Application.EurekaServiceApplication" />
         <item itemvalue="Application.ClientFeignApplication" />
         <item itemvalue="Application.WineServiceApplication" />
+        <item itemvalue="Application.SupplierServiceApplication" />
+        <item itemvalue="Application.EurekaServiceApplication" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2ab201d8-9e50-4c81-b846-fa70c37c771c" name="Default Changelist" comment="" />
@@ -245,30 +459,31 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2437247" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24210526" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="CheckStyle" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.56405693" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3291815" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46263346" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24021353" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" weight="0.32955465" />
+      <window_info anchor="bottom" id="CheckStyle" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33096084" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3291815" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32955465" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,12 +491,21 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="edited zull application.properties.connectTimeout &amp; readTimeout" />
@@ -299,16 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supplier-service/src/main/java/com/ait/wine/controller/SupplierController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399">
-          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -319,27 +533,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/supplier-service/src/main/java/com/ait/wine/model/Supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/supplier-service/src/main/java/com/ait/wine/model/Supplier.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-284">
@@ -351,13 +545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
           <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -375,24 +562,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/supplier-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wine-service/src/main/java/com/ait/wine/repository/WineRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wine-service/src/main/java/com/ait/wine/model/Wine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -403,9 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -413,18 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wine-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -435,10 +593,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wine-service/src/main/java/com/ait/wine/controller/WineController.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wine-service/src/main/java/com/ait/wine/model/Wine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wine-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supplier-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-feign/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuulgateway/src/main/java/edu/ait/zuulgateway/ZuulgatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuulgateway/src/main/java/edu/ait/zuulgateway/filters/LoggingPreFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuulgateway/src/main/java/edu/ait/zuulgateway/filters/LoggingPostFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuulgateway/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/ClientFeignApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#496#497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/SupplierServiceClientZuul.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="12" column="2" selection-start-line="12" selection-end-line="22" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supplier-service/src/main/java/com/ait/wine/controller/SupplierController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/model/Wine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wine-service/src/main/java/com/ait/wine/controller/WineController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/model/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/WineCellarServiceClientZuul.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/WineServiceClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/SupplierServiceClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/controllers/ClientFeignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="58" column="51" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1258#1259#0" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1439#1440#0" expanded="true" />
+            <element signature="e#1498#1499#0" expanded="true" />
+            <element signature="e#1574#1575#0" expanded="true" />
+            <element signature="e#1650#1651#0" expanded="true" />
+            <element signature="e#1794#1795#0" expanded="true" />
+            <element signature="e#1864#1865#0" expanded="true" />
+            <element signature="e#2274#2275#0" expanded="true" />
+            <element signature="e#2310#2311#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
