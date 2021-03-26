@@ -39,6 +39,9 @@ public class ClientFeignController
 
 /*A lot of the ones that work are still intermittent - getting 500 error sometimes, something to do with the gateway I think*/
 
+    /* Sorted that gateway error now. Should be working.
+    */
+
     //works
     @GetMapping("client-feign-zuul/wine/{wineId}")
     public Wine getWineFromWineServiceZuul(@PathVariable long wineId)

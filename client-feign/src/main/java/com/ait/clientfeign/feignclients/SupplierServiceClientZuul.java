@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
-@FeignClient("zuul-service-api-gateway")
+@FeignClient("zuul-api-gateway")
 public interface SupplierServiceClientZuul
 {
 /*    @GetMapping("supplier-service/suppliers/{supplierId}")

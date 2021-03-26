@@ -7,158 +7,13 @@
     <list default="true" id="2ab201d8-9e50-4c81-b846-fa70c37c771c" name="Default Changelist" comment="edited zull application.properties.connectTimeout &amp; readTimeout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/controllers/ClientFeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/controllers/ClientFeignController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/SupplierServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/SupplierServiceClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/SupplierServiceClientZuul.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/SupplierServiceClientZuul.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/WineServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/WineServiceClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/WineServiceClientZuul.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/WineCellarServiceClientZuul.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-feign/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/client-feign/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/target/classes/com/ait/wine/model/Supplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/shared/target/classes/com/ait/wine/model/Supplier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/target/classes/com/ait/wine/model/Wine.class" beforeDir="false" afterPath="$PROJECT_DIR$/shared/target/classes/com/ait/wine/model/Wine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supplier-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/supplier-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wine-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wine-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuulgateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/zuulgateway/src/main/resources/application.properties" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/eureka-service/target/" />
-    <ignored path="$PROJECT_DIR$/client-ribbon/target/" />
-    <ignored path="$PROJECT_DIR$/client-feign/target/" />
-    <ignored path="$PROJECT_DIR$/client-discovery/target/" />
-    <ignored path="$PROJECT_DIR$/shared/target/" />
-    <ignored path="$PROJECT_DIR$/supplier-service/target/" />
-    <ignored path="$PROJECT_DIR$/wine-service/target/" />
-    <ignored path="$PROJECT_DIR$/zuulgateway/target/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1618845537">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="1" />
-          <entry key="java" value="36" />
-          <entry key="properties" value="14" />
-          <entry key="sql" value="2" />
-          <entry key="xml" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="36" />
-          <entry key="Properties" value="14" />
-          <entry key="SQL" value="2" />
-          <entry key="XML" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="6" />
-          <entry key="java" value="2809" />
-          <entry key="properties" value="13" />
-          <entry key="sql" value="79" />
-          <entry key="xml" value="33" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="2809" />
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Properties" value="13" />
-          <entry key="SQL" value="79" />
-          <entry key="XML" value="33" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/SupplierServiceClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/controllers/ClientFeignController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="58" column="51" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1258#1259#0" expanded="true" />
-                <element signature="e#1280#1281#0" expanded="true" />
-                <element signature="e#1439#1440#0" expanded="true" />
-                <element signature="e#1498#1499#0" expanded="true" />
-                <element signature="e#1574#1575#0" expanded="true" />
-                <element signature="e#1650#1651#0" expanded="true" />
-                <element signature="e#1794#1795#0" expanded="true" />
-                <element signature="e#1864#1865#0" expanded="true" />
-                <element signature="e#2274#2275#0" expanded="true" />
-                <element signature="e#2310#2311#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/WineCellarServiceClientZuul.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/WineServiceClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/SupplierServiceClientZuul.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="12" column="2" selection-start-line="12" selection-end-line="22" selection-end-column="136" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/ClientFeignApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#496#497#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -199,13 +54,6 @@
         <option value="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/feignclients/WineCellarServiceClientZuul.java" />
         <option value="$PROJECT_DIR$/client-feign/src/main/java/com/ait/clientfeign/controllers/ClientFeignController.java" />
       </list>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -310,18 +158,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.ZuulgatewayApplication">
     <configuration name="ClientFeignApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -431,14 +267,14 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ZuulgatewayApplication" />
-        <item itemvalue="Application.ClientFeignApplication" />
-        <item itemvalue="Application.WineServiceApplication" />
         <item itemvalue="Application.SupplierServiceApplication" />
         <item itemvalue="Application.EurekaServiceApplication" />
+        <item itemvalue="Application.ClientFeignApplication" />
+        <item itemvalue="Application.WineServiceApplication" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2ab201d8-9e50-4c81-b846-fa70c37c771c" name="Default Changelist" comment="" />
@@ -491,21 +327,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="edited zull application.properties.connectTimeout &amp; readTimeout" />
