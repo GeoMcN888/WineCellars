@@ -1,5 +1,7 @@
 package com.ait.wine.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -10,6 +12,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 
 @Entity
@@ -26,12 +30,18 @@ public class Supplier {
     @Column
     private String country;
 
-/*    @ManyToMany(cascade = CascadeType.ALL)
+    @JsonIgnore
+    @ManyToMany(cascade = CascadeType.ALL)
     @JoinTable(
-            name = "supplier_wines",
+            name = "supplier_wines",schema = "winers",
             joinColumns = @JoinColumn(name = "supplier_id"),
             inverseJoinColumns = @JoinColumn(name = "wine_id"))
-    private Set<String> userBooks;*/
+    private List<Wine> supplierWines = new ArrayList<>();
+
+    public void supplierWines(Wine wine){
+        supplierWines.add(wine);
+    }
+
 
     public Supplier() {
     }
@@ -71,6 +81,7 @@ public class Supplier {
                 "supplierId=" + supplierId +
                 ", name='" + name + '\'' +
                 ", country='" + country + '\'' +
+                ", supplierWines=" + supplierWines +
                 '}';
     }
 }

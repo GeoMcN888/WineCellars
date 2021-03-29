@@ -1,5 +1,6 @@
 package com.ait.wine.controller;
 
+import com.ait.wine.model.Supplier;
 import com.ait.wine.model.Wine;
 import com.ait.wine.repository.WineRepository;
 import org.slf4j.Logger;
@@ -52,5 +53,9 @@ public class WineController {
         return ResponseEntity.noContent().build();
     }
 
+    @GetMapping("/wine/{wineId}/suppliers")
+    public List<Supplier> getSuppliersWineId(@PathVariable long wineId){
+        return wineRepository.findSuppliersByWineId(wineId);
+    }
 
 }

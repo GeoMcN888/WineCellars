@@ -1,7 +1,11 @@
 package com.ait.wine.model;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "wines")
@@ -23,6 +27,15 @@ public class Wine {
     private String picture;
     @Column
     private String description;
+
+    @JsonIgnore
+    @ManyToMany(mappedBy = "supplierWines")
+    private List<Supplier> wineSuppliers = new ArrayList<>();
+
+    public void wineSuppliers(Supplier supplier){
+        wineSuppliers.add(supplier);
+    }
+
 
     public Wine() {
     }

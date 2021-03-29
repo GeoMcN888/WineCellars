@@ -2,6 +2,7 @@ package com.ait.wine.controller;
 
 ;
 import com.ait.wine.model.Supplier;
+import com.ait.wine.model.Wine;
 import com.ait.wine.repository.SupplierRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -52,5 +53,10 @@ public class SupplierController {
             return supplierRepository.findByCountry(country.get());
         }
         return supplierRepository.findAll();
+    }
+
+    @GetMapping("/suppliers/{supplierId}/wines")
+    public List<Wine> getWinesBySupplierId(@PathVariable long supplierId){
+        return supplierRepository.findWinesBySupplierId(supplierId);
     }
 }
