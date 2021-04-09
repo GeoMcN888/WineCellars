@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ab201d8-9e50-4c81-b846-fa70c37c771c" name="Default Changelist" comment="edited zull application.properties.connectTimeout &amp; readTimeout">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service/eureka-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service/eureka-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supplier-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/supplier-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supplier-service/supplier-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/supplier-service/supplier-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wine-service/wine-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wine-service/wine-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/eureka-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supplier-service/supplier-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wine-service/wine-service.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
