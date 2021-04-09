@@ -9,8 +9,10 @@
         <relativePath />
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <groupId>com.ait.wine</groupId>
     <artifactId>supplier-service</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>supplier-service</name>
 
     <properties>
         <java.version>1.8</java.version>

@@ -9,7 +9,9 @@
     <file url="file://$PROJECT_DIR$/client-ribbon/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/supplier-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/supplier-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wine-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wine-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuulgateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuulgateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuulgateway/src/main/resources" charset="UTF-8" />
