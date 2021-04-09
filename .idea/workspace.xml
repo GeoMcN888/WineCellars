@@ -5,29 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ab201d8-9e50-4c81-b846-fa70c37c771c" name="Default Changelist" comment="edited zull application.properties.connectTimeout &amp; readTimeout">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-service/eureka-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier-service/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supplier-service/supplier-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wine-service/src/main/java/com/ait/wine/model/Supplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wine-service/src/main/java/com/ait/wine/model/Wine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wine-service/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wine-service/wine-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/ait/wine/model/Supplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/ait/wine/model/Supplier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/ait/wine/model/Wine.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/ait/wine/model/Wine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/target/classes/com/ait/wine/model/Supplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/shared/target/classes/com/ait/wine/model/Supplier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/target/classes/com/ait/wine/model/Wine.class" beforeDir="false" afterPath="$PROJECT_DIR$/shared/target/classes/com/ait/wine/model/Wine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client-feign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-ribbon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client-ribbon/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/ait/wine/model/Supplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/supplier-service/src/main/java/com/ait/wine/model/Supplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/ait/wine/model/Wine.java" beforeDir="false" afterPath="$PROJECT_DIR$/supplier-service/src/main/java/com/ait/wine/model/Wine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/target/classes/com/ait/wine/model/Supplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/target/classes/com/ait/wine/model/Wine.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/supplier-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/supplier-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/supplier-service/src/main/java/com/ait/wine/SupplierServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/supplier-service/src/main/java/com/ait/wine/SupplierServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supplier-service/src/main/java/com/ait/wine/controller/SupplierController.java" beforeDir="false" afterPath="$PROJECT_DIR$/supplier-service/src/main/java/com/ait/wine/controller/SupplierController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supplier-service/src/main/java/com/ait/wine/repository/SupplierRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/supplier-service/src/main/java/com/ait/wine/repository/SupplierRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/supplier-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/supplier-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supplier-service/src/main/resources/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/supplier-service/supplier-service.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wine-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wine-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wine-service/src/main/java/com/ait/wine/controller/WineController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wine-service/src/main/java/com/ait/wine/controller/WineController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wine-service/src/main/java/com/ait/wine/model/Wine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wine-service/src/main/java/com/ait/wine/repository/WineRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/wine-service/src/main/java/com/ait/wine/repository/WineRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wine-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wine-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wine-service/src/main/resources/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wine-service/wine-service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuulgateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/zuulgateway/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,17 +167,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wine-service/src/main/resources" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.ait.clientfeign.model" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wine-service/src/main/resources" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ait.wine.model" />
+      <recent name="com.ait.clientfeign.model" />
     </key>
   </component>
   <component name="RunManager" selected="Application.ZuulgatewayApplication">
@@ -286,10 +290,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ZuulgatewayApplication" />
-        <item itemvalue="Application.EurekaServiceApplication" />
         <item itemvalue="Application.SupplierServiceApplication" />
-        <item itemvalue="Application.ClientFeignApplication" />
         <item itemvalue="Application.WineServiceApplication" />
+        <item itemvalue="Application.EurekaServiceApplication" />
+        <item itemvalue="Application.ClientFeignApplication" />
       </list>
     </recent_temporary>
   </component>
